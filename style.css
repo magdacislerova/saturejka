@@ -3,9 +3,30 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  text-align: center;
+  background-color: #ffefef;
+  box-sizing: border-box; /*padding se počítá dovnitř zadané šířky??? tomu moc nerozumím, dohledat*/
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+.menu {
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main_images {
+  display: block;
+}
+
+.main_images img {
+  width: 33%;
+}
+
+footer {
+  font-size: 10px;
 }
