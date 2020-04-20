@@ -17,6 +17,7 @@ h2 {
   background-color: #ffffff;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 50px;
 }
 
 .main_images {
@@ -25,6 +26,20 @@ h2 {
 
 .main_images img {
   width: 33%;
+}
+
+.button {
+  background-color: #ffefef;
+  width: 120px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.dishes {
+  display: block;
+}
+.dishes img {
+  width: 50%;
 }
 
 footer {
